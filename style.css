@@ -1,0 +1,125 @@
+body{
+    color: rgb(0, 0, 0);
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+   
+}
+body {
+    background-color: rgb(255, 197, 227);
+   
+}
+.navbar {
+    background-color: rgb(156, 157, 223);
+    border-radius: 34px;
+    border: 2px solid black;
+    text-align: center;
+    width: 55%;
+    height: 35px;
+}
+
+
+nav{
+   
+    width: 50%;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    float: right;
+    
+}
+nav a{
+    text-decoration:wavy;
+    font-weight:bold ;
+    font-size: 25px;
+    float: right;
+   color: black;
+}  
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+
+
+}
+.left{
+    flex-basis: 40%;
+}
+.left img{
+    width:90%;
+    height: 55%;
+    padding-top: 30px;
+    padding-left: 150px;
+}
+.right{
+    flex-basis: 60%;
+}
+.text{
+    max-width: 400px;
+    margin: auto;
+}
+.text h2{
+    font-size: 45px ;
+    color:  rgb(33, 19, 103);
+}
+.text h3{
+    font-size: 35px ;
+    color: rgb(6, 4, 18);
+
+}
+.text p{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+button{
+    padding: 10px 20px;
+    background-color: rgb(33, 19, 103);
+    color:white ;
+    margin: 10px 0px;
+    font-size: medium;
+     font-weight:bolder ;
+     border: none;
+}
+#icon{
+    width: 100px;
+    margin-top: 10px;
+
+}
+.square{
+    width: 35%;
+    height: 60%;
+    background-color: rgb(143, 143, 210);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+}
+.square2{
+    width: 20%;
+    height: 30%;
+    background-color: rgb(143, 143, 210);
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    z-index: -1;
+}
+
+
+   
+
+h4{
+    border: 2PX SOLID black;
+    border-radius: 25px;
+    margin: 5PX 11PX;
+    padding: 4px 400px;
+    text-align: center;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToG4Lc4hbqs4UgBnFI9-MHOOcUxSG8aZo0zQ&usqp=CAU);
+}
+
+
+
